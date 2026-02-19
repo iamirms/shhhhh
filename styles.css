@@ -163,8 +163,12 @@ label {
 }
 
 #inputText::placeholder {
-  color: black;
+  color: rgb(40, 40, 40);
   opacity: 1; /* Firefox */
+}
+
+#inputText:focus::placeholder {
+  color: transparent;
 }
 
 #checkboxX {box-sizing: border-box;
