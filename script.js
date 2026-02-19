@@ -3,6 +3,19 @@
 // Global variable to toggle shuffle function
 let shuffleEnabled = false;
 
+
+// Add clear input on click functionality
+document.addEventListener("DOMContentLoaded", function () {
+  var inputElement = document.getElementById("inputText");
+  if (inputElement) {
+    inputElement.addEventListener("click", function () {
+      inputElement.value = "";
+      inputElement.style.height = "auto"; // reset auto-grow height
+    });
+  }
+});
+
+
 // Add a function to handle input events
 function handleInput(event) {
   var inputElement = document.getElementById("inputText");
