@@ -3,21 +3,6 @@
 // Global variable to toggle shuffle function
 let shuffleEnabled = false;
 
-
-// Add clear input on first focus functionality
-document.addEventListener("DOMContentLoaded", function () {
-  var inputElement = document.getElementById("inputText");
-  if (inputElement) {
-    inputElement.addEventListener("focus", function () {
-      if (inputElement.value.trim() === "") {
-        inputElement.value = "";
-        inputElement.style.height = "auto"; // reset auto-grow height
-      }
-    }, { once: true }); // Only trigger once, on first focus
-  }
-});
-
-
 // Add a function to handle input events
 function handleInput(event) {
   var inputElement = document.getElementById("inputText");
