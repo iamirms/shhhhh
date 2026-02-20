@@ -123,9 +123,7 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-    padding:20px;
-    border-bottom: 1px solid #e7e5e5;
-    
+    padding:20px;    
 }
 
 label {
@@ -195,12 +193,13 @@ button:hover {
     padding-top: 0px;
     background-color: #fff;
     margin-bottom: 20px;
-
+    padding-top: 20px;
+    border-top: 1px solid #e7e5e5;
 }
 
 .post {
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #e7e5e5;
 }
 
@@ -264,7 +263,7 @@ button:hover {
 
 
 #disclaimer {
-    font-size:10px;
+    font-size:14px;
     text-align: center;
 }
 
@@ -280,4 +279,21 @@ button:hover {
         border-bottom-left-radius: 0;
         margin-bottom: 20px;
     }
+}
+
+/* Sticky footer */
+footer {
+    margin-top: auto; /* pushes footer to the bottom */
+    background-color: #fff;
+    border-top: 1px solid #e7e5e5;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
 }
