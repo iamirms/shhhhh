@@ -1,6 +1,6 @@
-# Shhhhh.net
+# The Shhh Network / shush.it
 
-**Shhhhh** is a minimal, intentionally quiet social experiment.
+**The Shhhh Network** is a minimal, intentionally quiet social experiment.
 
 It allows users to write something down without sending it anywhere. No posting, no sharing, no engagement. Just release.
 
