@@ -1,6 +1,6 @@
-# Shhhhh.net
+# The Shhh Network / shush.it
 
-**Shhhhh** is a minimal, intentionally quiet social experiment.
+**The Shhh Network** is a minimal, intentionally quiet social experiment.
 
 It allows users to write something down without sending it anywhere. No posting, no sharing, no engagement. Just release.
 
@@ -20,7 +20,7 @@ The act of writing remains. The harm does not.
 
 ## Philosophy
 
-Shhhhh is based on a straightforward premise:
+Shhh is based on a straightforward premise:
 
 Expression can be valuable.  
 Broadcasting is optional.
@@ -29,7 +29,7 @@ By separating the act of writing from the act of publishing, the project encoura
 
 ## Status
 
-Shhhhh has existed quietly since 2024.
+Shhh has existed quietly since 2024.
 
 Various expansion ideas were considered, including integrations with social platforms where harmful language could be automatically reframed. These concepts were explored but never implemented.
 
